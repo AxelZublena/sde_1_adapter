@@ -7,7 +7,7 @@ public class Main {
 
         ConsoleReader reader = new ConsoleReader();
         ConsoleWriter writer = new ConsoleWriter();
-        ReaderInterface readerAdapter = new ReaderInterface(reader);
+        ResponseInterface readerAdapter = new ReaderAdapter(reader);
 
         // ask questions
         String q1 = "Do you like eating vegetables?";

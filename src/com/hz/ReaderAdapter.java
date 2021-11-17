@@ -1,9 +1,9 @@
 package com.hz;
 
-public class ReaderInterface implements ResponseInterface {
+public class ReaderAdapter implements ResponseInterface {
     private ConsoleReader reader;
 
-    public ReaderInterface(ConsoleReader reader){
+    public ReaderAdapter(ConsoleReader reader){
         this.reader = reader;
     }
 
